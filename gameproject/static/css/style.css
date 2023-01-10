@@ -437,7 +437,7 @@ header .fa-bars{
 }
 
 .footer .box-container .box{
-    flex:1 1 25rem;
+    flex:1 1 17rem;
 }
 
 .footer .box-container .box h3{
@@ -467,7 +467,7 @@ header .fa-bars{
     padding:1.5rem;
     margin-top: 1.5rem;
     padding-top: 2.5rem;
-    font-size: 2rem;
+    font-size: 1rem;
     color:#333;
     border-top: .1rem solid rgba(0,0,0,.1);
     padding-bottom: 9rem;
