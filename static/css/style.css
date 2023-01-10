@@ -1,0 +1,13 @@
+    
+
+body {
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://i.pinimg.com/originals/bd/23/92/bd23924391d15298c270fc908c393e76.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+  
