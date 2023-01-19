@@ -1,7 +1,28 @@
+{% include 'Partss/header.html' %}
+
 {% load static %}
 
-  <link rel="stylesheet" href="{% static 'css/style.css' %}">
-  {% include 'Partss/header.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Truck Game">
+    <title>Truck Game</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+ </head>
+<body> 
+    <section class="home" id="home">
 
+        <div class="content">
+        
+          <h1>Truck Game </h1>
+          <h7><b>صفحه الانجازات</b></h7>
+          
+        </div>
+    </section>
+</body>
+</html>
+{% endblock content %}
 
-<h3>Hello world</h3>
+{% include 'Partss/footer.html' %}
