@@ -4,7 +4,7 @@ body {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url(https://i.pinimg.com/originals/9f/97/8c/9f978c0b9d6b4c0ce5f10c8439edd8b8.jpg) no-repeat;
+    background: url(../image/pic5.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -125,7 +125,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background:url() no-repeat;
+    background:rgba(255, 251, 251, 0.834);
     background-size: cover;
     background-position: center;
 }
@@ -139,16 +139,21 @@ header .fa-bars{
     color:#333;
 }
 
+.home .content h2{
+    font-size: 1.5rem;
+    color:rgba(48, 117, 245, 0.682);
+}
+
 .home .content span{
     font-size: 3.5rem;
-    color:var(--pink);
+    color:var(--red);
     padding:1rem 0;
     line-height: 1.5;
 }
 
 .home .content p{
-    font-size: 1.5rem;
-    color:#999;
+    font-size:2rem;
+    color:rgba(5, 98, 7, 0.89);
     padding:1rem 0;
     line-height: 1.5;
 }
@@ -436,20 +441,21 @@ header .fa-bars{
 
 
 .footer .box-container{
-    background:rgba(255, 252, 252, 0.466);
+    background:rgba(255, 252, 252, 0.686);
     padding-top: 5rem;
     display: flex;
     position: center;
     padding:3rem 9%;
     bottom:0; left:0; right:0;
     align-items: center;
-   
     justify-content: space-between;
-    
     z-index: 1000;
     gap: 3rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.025);
+   
+   
 }
+
 
 .footer .box-container .box{
     flex:1 1 25rem;
