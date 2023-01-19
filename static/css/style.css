@@ -125,7 +125,7 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background:url(../images/home-bg.jpg) no-repeat;
+    background:url() no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -436,17 +436,19 @@ header .fa-bars{
 
 
 .footer .box-container{
-    position: center;
-    bottom: 0; 
-    background:rgb(255, 252, 252);
-    padding:3rem 9%;
+    background:rgba(255, 252, 252, 0.466);
+    padding-top: 5rem;
     display: flex;
-    left:0; right:0;
+    position: center;
+    padding:3rem 9%;
+    bottom:0; left:0; right:0;
     align-items: center;
-    justify-content:space-between;
+   
+    justify-content: space-between;
+    
     z-index: 1000;
+    gap: 3rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    gap:3rem;
 }
 
 .footer .box-container .box{
