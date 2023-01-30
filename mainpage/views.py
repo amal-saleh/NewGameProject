@@ -24,3 +24,13 @@ def questions(request):
 def achievements(request):
     #return HttpResponse('Hello World, muna test')
     return render(request, 'mainpage/achievements.html')
+
+#these two should be written in other page for all user page links.
+
+def sign_in(request):
+    #return HttpResponse('Hello World, muna test')
+    return render(request, 'pages/sign-in.html')
+
+def sign_up(request):
+    #return HttpResponse('Hello World, muna test')
+    return render(request, 'pages/sign-up.html')
