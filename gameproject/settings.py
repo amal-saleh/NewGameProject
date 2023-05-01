@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     
     'pages.apps.PagesConfig',
     'mainpage.apps.MainpageConfig',
+    'product.apps.ProductConfig',
     
 ]
 

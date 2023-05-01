@@ -21,5 +21,6 @@ urlpatterns = [
 
     path('', include('mainpage.urls')),
 
+   path('product/', include('product.urls')),
 
 ]
